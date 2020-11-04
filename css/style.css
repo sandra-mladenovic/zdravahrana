@@ -1,0 +1,357 @@
+@font-face{
+	font-family: 'Lato';
+	src: url('fontovi/Lato-Regular');
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.cistac{
+	clear: both;
+}
+body{
+	font-family:  'Lato' ;
+}
+ul,a  {
+	text-decoration: none;
+}
+#naslov{
+	margin: 5px 5px;
+}
+
+#okvir{
+	width: 960px;
+	margin: 0px auto;
+}
+#heder{
+	width: 100%;
+	margin: 0px auto;
+}
+#logo{
+	float: left;
+	padding: 10px;
+}
+#logo a{
+	color: #669966;
+	font-size: 32px;
+	border-bottom: 2px solid #FFCC00;
+}
+/*Stilizovanje navigacionog menija*/
+#navigacija {
+	float:right;
+	background-color:#669966;
+	width:100%;
+	margin-top: 5px;
+	position: relative;
+
+}
+#navigacija ul{
+	margin: 0px auto;
+}
+#navigacija ul li{
+	float:left;
+	display:block;
+	padding: 8px 57px;
+	
+	
+}
+#navigacija ul li a{
+	color:#FFCC00;
+	padding:5px;
+}
+#navigacija ul li a:hover{
+	font-weight: bold;
+}
+#naslov h1 {
+	color: #FFCC00;
+	padding: 20px 15px;
+}
+a{
+	color: #FFCC00;
+}
+h2 a {
+	color: #669966;
+}
+h3 a{
+	color: #FFCC00;
+}
+/*Stilizovanje sadržaja*/
+#sadrzaj{
+	width: 900px;
+	margin: 5px auto;
+}
+#gore{
+	width: 90%;
+	margin: 0px auto;
+}
+
+
+.slikaITekst img{
+	float: left;
+	padding: 7px;
+}
+.slikaITekst p{
+		text-align: left;
+		padding: 3px;
+}
+.slikaITekst p a {
+	text-align: right;
+}
+#dole{
+	width: 80%;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+#dole h2{
+	text-align: center;
+}
+
+#dole h2 a{
+	border-bottom: 2px solid #FFCC00;
+}
+
+.uTrendu{
+	float: left;
+	text-align: center;
+	padding: 7px 18px;
+	margin-top: 8px;
+}
+/*Stilizovanje futera*/
+#futer{
+	width: 100%;
+	border-top: 4px solid #669966;
+	margin-top: 20px;
+	padding: 30px 0px;
+}
+#copyright{
+	float: left;
+	margin-top: 15px;
+}
+#drMreze{
+	float: right;
+	
+}
+#drMreze ul li{
+	display:inline-block;
+	margin: 0px 5px;
+}
+#drMreze ul li a i{
+	color: #000;
+}
+#drMreze .fa-facebook-square{
+	color:#2b4a76;
+}
+#drMreze .fa-youtube-play{
+	color:#ff1d18;
+}
+#drMreze .fa-twitter{
+	color:#3bc3ea;
+}
+
+/*Stilizovanje stranice RECEPTI */
+#sadrzajR{
+	width: 90%;
+	margin: 0px auto;
+}
+.sadrzajR{
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	padding: 7px;
+}
+.sadrzajR h2{
+	color:#669966;
+	padding: 5px 0px;;
+}
+.sadrzajR img{
+	float: left;
+	padding: 0px 7px;
+}
+.sadrzajR img  h3 a{
+	color: #669966;
+}
+.sadrzajR img a h3 p{
+	float: right;
+}
+.sadrzajR b{
+	color: #FFCC00;
+	
+}/*U trendu - na stranici RECEPTI*/
+#doleR{
+	width: 80%;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+#doleR h2{
+	text-align: center;
+}
+
+#doleR h2 a{
+	border-bottom: 2px solid #FFCC00;
+}
+
+.uTrenduR{
+	float: left;
+	text-align: center;
+	padding: 7px 18px;
+	margin-top: 8px;
+}
+/*Futer na stranici RECEPTI*/
+#futerR{
+	width: 960px;
+	border-top: 4px solid #669966;
+	margin: 0px auto;
+	padding: 30px 0px;
+}
+
+/*Stilizovanje stranice U TRENDU*/
+#sadrzajT{
+	width: 90%;
+	margin: 0px auto;
+	
+}
+#sadrzajT h1{
+	color:#FFCC00;
+	margin-top:25px;
+	
+}
+
+.uTrenduT img {
+	float:left;
+	padding:5px 8px;
+}
+.uTrenduT p{
+	text-align: justify;
+	padding-left: 3px 6px;
+}
+.uTrenduT h2{
+	color:#669966;
+	text-align: left;
+	padding-bottom: 6px;
+}
+.uTrenduT h3{
+	color: #FFCC00;
+	text-align:left;
+}
+/*Stilizovanje stranice O AUTORU*/
+#sadrzajA {
+	width: 80%;
+	margin: 0px auto;
+}
+.slikaA{
+	width: 76%;
+}
+.slikaA img,p {
+	margin: 0px auto;
+}
+.slikaA img{
+	float: left;
+	padding: 0px 5px;
+	
+}
+.slikaA p {
+	text-align: left;
+	padding:3px 5px;
+}
+/*U trendu na stranici O AUTORU*/
+#doleO{
+	width: 768px;
+	margin: 0px auto;
+	padding-top: 20px;
+
+}
+#doleO h2{
+	text-align: center;
+}
+
+#doleO h2 a{
+	border-bottom: 2px solid #FFCC00;
+}
+
+
+/*Futer na stranici O AUTORU*/
+#futerO{
+	width: 960px;
+	border-top: 4px solid #669966;
+	margin: 0px auto;
+	padding: 30px 0px;
+}
+
+/*Stilizovanje stranice KONTAKT*/
+#sadrzajK{
+	width: 90%;
+	margin: 0px auto;
+}
+#sadrzajK h2{
+	color: #669966;
+}
+#sredinaK{
+	width: 46%;
+	float:left;
+	padding: 10px;
+}
+#anketa {
+	width: 42%;
+	border-left:2px solid #669966;
+	padding: 7px;
+	float: right;
+}
+#anketa h3 {
+	color: #FFCC00;
+}
+/*U trendu na stranici KONTAKT*/
+#Trend {
+	width: 768px;
+	margin: 0px auto;
+}
+.uTrenduK{
+	float: left;
+	text-align: center;
+	padding: 7px 18px;
+	margin-top: 8px;
+}
+/*Futer na stranici KONTAKT*/
+#futerK{
+	width: 960px;
+	border-top: 4px solid #669966;
+	margin: 0px auto;
+	padding: 30px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
